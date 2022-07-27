@@ -1,0 +1,21 @@
+header{
+    background-color: #FFF9F4;
+}
+.navbarLogo{
+    width: 100px;
+}
+.bg-custom1-secondary{
+    background-color: #e8e4e2d7;
+}
+.primaryColor{
+    color: #FA804C;
+}
+.secondaryColor{
+    color: 363958;
+}
+.btnBackground{
+    background: linear-gradient(180deg, #3D4FF3 0%, #3543BC 100%);
+}
+.textSpacing{
+    letter-spacing: -2px;
+}
