@@ -18,15 +18,13 @@
 </head>
 
 <body>
-    <!-- Navbar Section Start -->
-    <header class="py-4 mb-5" id="home">
-        <section class="container">
-            <!-- Nav Start -->
+    <!-- Nav Start -->
+    <nav class="fixed-top py-2 navbarBackground">
+        <div class="container">
             <div class="row">
                 <div class="col-10 col-md-8 col-lg-6 d-flex">
                     <img class="navbarLogo me-2" src="assets/images/Logo/nike.png" alt="Nike Logo">
-                    <h5 class="fs-2 fw-bold secondaryColor text-uppercase my-auto"><span
-                            class="primaryColor">Nike</span>
+                    <h5 class="fs-2 fw-bold secondaryColor text-uppercase my-auto"><span class="primaryColor">Nike</span>
                         Fashion
                     </h5>
                 </div>
@@ -37,39 +35,27 @@
                             role="button" aria-controls="offcanvasExample">
                             <i class="text-dark bi bi-list"></i>
                         </a>
-                        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasExample"
+                        <div class="offcanvas offcanvas-end w-50" tabindex="-1" id="offcanvasExample"
                             aria-labelledby="offcanvasExampleLabel">
                             <div class="offcanvas-header">
-                                <h5 class="offcanvas-title fw-bold primaryColor" id="offcanvasExampleLabel">Nike Fashion
+                                <h5 class="fs-2 fw-bold secondaryColor text-uppercase my-auto"><span
+                                        class="primaryColor">Nike</span>
+                                    Fashion
                                 </h5>
                                 <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
                                     aria-label="Close"></button>
                             </div>
                             <div class="offcanvas-body">
-                                <a class="d-block text-center text-uppercase  text-dark fw-bold text-decoration-none"
-                                    aria-label="Close" data-bs-dismiss="offcanvas" href="#home">Home</a>
-                                <a class="d-block text-center mt-5 text-uppercase  text-dark fw-bold text-decoration-none"
-                                    aria-label="Close" data-bs-dismiss="offcanvas" href="#shoes">Shoes</a>
-                                <a class="d-block text-center mt-5 text-uppercase  text-dark fw-bold text-decoration-none"
-                                    aria-label="Close" data-bs-dismiss="offcanvas" href="#about">About
+                                <a class="d-block text-left btnBackground text-uppercase rounded-2 text-center py-2 text-white fw-bold text-decoration-none"
+                                    href="#home">Home</a>
+                                <a class="d-block text-left btnBackground mt-3 text-uppercase rounded-2 text-center py-2 text-white fw-bold text-decoration-none"
+                                    href="#shoes">Shoes</a>
+                                <a class="d-block text-left btnBackground mt-3 text-uppercase rounded-2 text-center py-2 text-white fw-bold text-decoration-none"
+                                    href="#about">About
                                     Us</a>
-                                <a class="d-block text-center mt-5  text-uppercase text-dark fw-bold text-decoration-none"
-                                    aria-label="Close" data-bs-dismiss="offcanvas" href="#contact">Contact
+                                <a class="d-block text-left btnBackground mt-3  text-uppercase rounded-2 text-center py-2 text-white fw-bold text-decoration-none"
+                                    href="#contact">Contact
                                     Us</a>
-
-
-                                <div class="dropdown mt-3">
-                                    <button class="btn btn-secondary dropdown-toggle" type="button"
-                                        data-bs-toggle="dropdown">
-                                        Dropdown button
-                                    </button>
-                                    <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item" href="#about">Action</a></li>
-                                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                    </ul>
-                                </div>
-
                             </div>
                         </div>
                     </div>
@@ -79,8 +65,7 @@
                     <div class="d-flex justify-content-end align-items-center">
                         <div>
                             <a class="me-5 text-uppercase  text-dark fw-bold text-decoration-none" href="#home">Home</a>
-                            <a class="me-5 text-uppercase  text-dark fw-bold text-decoration-none"
-                                href="#shoes">Shoes</a>
+                            <a class="me-5 text-uppercase  text-dark fw-bold text-decoration-none" href="#shoes">Shoes</a>
                             <a class="me-5 text-uppercase  text-dark fw-bold text-decoration-none" href="#about">About
                                 Us</a>
                             <a class="  text-uppercase text-dark fw-bold text-decoration-none" href="#contact">Contact
@@ -89,7 +74,12 @@
                     </div>
                 </div>
             </div>
-            <!-- Nav End -->
+        </div>
+    </nav>
+    <!-- Nav End -->
+    <!-- Navbar Section Start -->
+    <header class="py-5" id="home">
+        <section class="container">
             <!-- Hero Start -->
             <div
                 class="d-flex flex-column flex-column-reverse flex-md-row flex-lg-row align-items-center justify-content-between py-5">
@@ -111,299 +101,317 @@
             </div>
             <!-- Hero End -->
         </section>
-
-        <main>
     </header>
-    <!-- Navbar Section End -->
-    <!-- Casuel Shoes Start -->
-    <section id="casual">
-        <div class="container">
-            <h2 class="secondaryColor fw-bold display-6 mb-5 pt-5 textSpacing">CASUAL SHOES</h2>
-            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
-                <div class="col">
-                    <div class="card h-100 p-3">
-                        <div class="p-2 h-75 bg-custom1-secondary rounded-2 mb-5">
-                            <img class="img-fluid" src="assets/images/product/Daco_1703273 1.png" alt="product">
-                        </div>
-                        <h4 class="fw-bold text-dark fs-3">Nike Shoe</h4>
-                        <p class="text-muted mb-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum
-                            nostrum repellendus molestiae magnam, eius cum quasi maiores illo perspiciatis ipsa.</p>
-                        <div class="d-flex justify-content-between align-items-center">
-                            <span class="fw-bold primaryColor fw-bold display-6">$234</span>
-                            <button class="d-inline btn btn-primary btnBackground fw-bold text-uppercase px-3 py-2"><i
-                                    class="bi bi-cart"></i>
-                                Buy Now</button>
-                        </div>
-                        <span
-                            class="position-absolute top-0 positionLeft badgePadding translate-middle badge rounded-pill btnBackground">
-                            Sale
-                        </span>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card h-100 p-3">
-                        <div class="p-2 h-75 bg-custom1-secondary rounded-2 mb-5">
-                            <img class="img-fluid" src="assets/images/product/image 5.png" alt="product">
-                        </div>
-                        <h4 class="fw-bold text-dark fs-3">Sneakers Skate Shoe </h4>
-                        <p class="text-muted mb-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum
-                            nostrum repellendus molestiae magnam, eius cum quasi maiores illo perspiciatis ipsa.</p>
-                        <div class="d-flex justify-content-between align-items-center">
-                            <span class="fw-bold primaryColor fw-bold display-6">$234</span>
-                            <button class="d-inline btn btn-primary btnBackground fw-bold text-uppercase px-3 py-2"><i
-                                    class="bi bi-cart"></i>
-                                Buy Now</button>
-                        </div>
-                        <span
-                            class="position-absolute top-0 positionLeft badgePadding translate-middle badge rounded-pill btnBackground">
-                            Sale
-                        </span>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card h-100 p-3">
-                        <div class="p-2 h-75 bg-custom1-secondary rounded-2 mb-5">
-                            <img class="img-fluid" src="assets/images/product/Daco_1703273 1.png" alt="product">
-                        </div>
-                        <h4 class="fw-bold text-dark fs-3">Basketball shoe</h4>
-                        <p class="text-muted mb-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum
-                            nostrum repellendus molestiae magnam, eius cum quasi maiores illo perspiciatis ipsa.</p>
-                        <div class="d-flex justify-content-between align-items-center">
-                            <span class="fw-bold primaryColor fw-bold display-6">$234</span>
-                            <button class="d-inline btn btn-primary btnBackground fw-bold text-uppercase px-3 py-2"><i
-                                    class="bi bi-cart"></i>
-                                Buy Now</button>
-                        </div>
-                        <span
-                            class="position-absolute top-0 positionLeft badgePadding translate-middle badge rounded-pill btnBackground">
-                            Sale
-                        </span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Casuel Shoes End -->
-    <!-- Formal Shoes Start -->
-    <section id="formal">
-        <div class="container pb-5">
-            <h2 class="secondaryColor fw-bold display-6 mb-5 pt-5 textSpacing">FORMAL SHOES</h2>
-            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
-                <div class="col">
-                    <div class="card h-100 p-3">
-                        <div class="p-2 h-75 rounded-2 mb-5">
-                            <img class="img-fluid" src="assets/images/product/Rectangle 38.png" alt="product">
-                        </div>
-                        <h4 class="fw-bold text-dark fs-3">Prestige Leather </h4>
-                        <p class="text-muted mb-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum
-                            nostrum repellendus molestiae magnam, eius cum quasi maiores illo perspiciatis ipsa.</p>
-                        <div class="d-flex justify-content-between align-items-center">
-                            <span class="fw-bold primaryColor fw-bold display-6">$234</span>
-                            <button class="d-inline btn btn-primary btnBackground fw-bold text-uppercase px-3 py-2"><i
-                                    class="bi bi-cart"></i>
-                                Buy Now</button>
-                        </div>
-                        <span
-                            class="position-absolute top-0 positionLeft badgePadding translate-middle badge rounded-pill btnBackground">
-                            Sale
-                        </span>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card h-100 p-3">
-                        <div class="p-2 h-75 rounded-2 mb-5">
-                            <img class="img-fluid" src="assets/images/product/Rectangle 39.png" alt="product">
-                        </div>
-                        <h4 class="fw-bold text-dark fs-3">Slip-On Shoe </h4>
-                        <p class="text-muted mb-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum
-                            nostrum repellendus molestiae magnam, eius cum quasi maiores illo perspiciatis ipsa.</p>
-                        <div class="d-flex justify-content-between align-items-center">
-                            <span class="fw-bold primaryColor fw-bold display-6">$234</span>
-                            <button class="d-inline btn btn-primary btnBackground fw-bold text-uppercase px-3 py-2"><i
-                                    class="bi bi-cart"></i>
-                                Buy Now</button>
-                        </div>
-                        <span
-                            class="position-absolute top-0 positionLeft badgePadding translate-middle badge rounded-pill btnBackground">
-                            Sale
-                        </span>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card h-100 p-3">
-                        <div class="p-2 h-75 rounded-2 mb-5">
-                            <img class="img-fluid" src="assets/images/product/Mask Group.png" alt="product">
-                        </div>
-                        <h4 class="fw-bold text-dark fs-3">Slip-On Shoe</h4>
-                        <p class="text-muted mb-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum
-                            nostrum repellendus molestiae magnam, eius cum quasi maiores illo perspiciatis ipsa.</p>
-                        <div class="d-flex justify-content-between align-items-center">
-                            <span class="fw-bold primaryColor fw-bold display-6">$234</span>
-                            <button class="d-inline btn btn-primary btnBackground fw-bold text-uppercase px-3 py-2"><i
-                                    class="bi bi-cart"></i>
-                                Buy Now</button>
-                        </div>
-                        <span
-                            class="position-absolute top-0 positionLeft badgePadding translate-middle badge rounded-pill btnBackground">
-                            Sale
-                        </span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Formal Shoes End -->
-    <!-- About Section Start -->
-    <section id="about" class="py-5">
-        <div
-            class="container d-flex flex-column flex-md-row flex-lg-row flex-column-reverse justify-content-between align-items-center">
-            <div class="d-flex flex-column w-lg-50 w-md-50 w-100">
-                <div class="d-flex flex-column flex-lg-row flex-md-row mb-4 align-items-center justify-content-between">
-                    <img class="w-25" src="assets/images/Icon/image 12.png" alt="product">
-                    <div class="ps-0 ps-lg-3 ps-md-3 w-100 content">
-                        <h5 class="fw-bold text-dark mb-2">Find the Perfect Fit</h5>
-                        <p class="text-muted">Everybody is different, which is why we
-                            offer styles for every body.</p>
-                    </div>
-                </div>
-                <div class="d-flex flex-column flex-lg-row flex-md-row mb-4 align-items-center justify-content-between">
-                    <img class="w-25" src="assets/images/Icon/image 13.png" alt="product">
-                    <div class="ps-0 ps-lg-3 ps-md-3 w-100 content">
-                        <h5 class="fw-bold text-dark mb-2">Free Exchanges</h5>
-                        <p class="text-muted">One of the many reasons you can shop
-                            with peace of mind.</p>
-                    </div>
-                </div>
-                <div class="d-flex flex-column flex-lg-row flex-md-row mb-4 align-items-center justify-content-between">
-                    <img class="w-25" src="assets/images/Icon/image 14.png" alt="product">
-                    <div class="ps-0 ps-lg-3 ps-md-3 w-100 content">
-                        <h5 class="fw-bold text-dark mb-2">Contact Our Seller</h5>
-                        <p class="text-muted">They are here to help you. That's quite
-                            literally what we pay them for.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="w-lg-50 w-md-50 w-100 ps-0 ps-lg-5 ps-md-5 mb-5 mb-md-0 mb-lg-0">
-                <img class="img-fluid" src="assets/images/Icon/XMLID 1.png" alt="Picture">
-            </div>
-        </div>
-    </section>
-    <!-- About Section End -->
-    <!-- FAQ Setion Start -->
-    <section class="py-5">
-        <div class="container">
-            <h2 class="text-dark text-center fw-bold display-6 mb-5 textSpacing">FAQ</h2>
-            <div class="accordion  mx-auto" id="accordionPanelsStayOpenExample">
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="panelsStayOpen-headingOne">
-                        <button class="accordion-button fw-bold text-dark fs-6" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
-                            aria-controls="panelsStayOpen-collapseOne">
-                            How you deliver and take order from clients? When you Deliver their product?
-                        </button>
-                    </h2>
-                    <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
-                        aria-labelledby="panelsStayOpen-headingOne">
-                        <div class="accordion-body text-muted">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati animi, reprehenderit
-                            debitis possimus expedita aspernatur mollitia provident cumque! Perferendis facere sed in.
-                            Adipisci, aperiam possimus voluptatum illo officiis velit blanditiis, dolore cupiditate iste
-                            excepturi tempore officia dolores deserunt sunt. Hic voluptas exercitationem doloremque.
-                            Sit, officiis veniam quasi magnam harum quaerat.
+    <main>
+        <!-- Navbar Section End -->
+        <!-- Casuel Shoes Start -->
+        <section id="shoes" class="pt-5">
+            <div class="container">
+                <h2 class="secondaryColor fw-bold display-6 mb-5 pt-5 textSpacing">CASUAL SHOES</h2>
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                    <div class="col">
+                        <div class="card h-100 p-3">
+                            <div class="p-2 h-75 bg-custom1-secondary rounded-2 mb-5">
+                                <img class="img-fluid" src="assets/images/product/Daco_1703273 1.png" alt="product">
+                            </div>
+                            <h4 class="fw-bold text-dark fs-3">Nike Shoe</h4>
+                            <p class="text-muted mb-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum
+                                nostrum repellendus molestiae magnam, eius cum quasi maiores illo perspiciatis ipsa.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="fw-bold primaryColor fw-bold display-6">$234</span>
+                                <button
+                                    class="d-inline btn btn-primary btnBackground fw-bold text-uppercase px-3 py-2"><i
+                                        class="bi bi-cart"></i>
+                                    Buy Now</button>
+                            </div>
+                            <span
+                                class="position-absolute top-0 positionLeft badgePadding translate-middle badge rounded-pill btnBackground">
+                                Sale
+                            </span>
                         </div>
                     </div>
-                </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
-                        <button class="accordion-button fw-bold text-dark fs-6 collapsed" type="button"
-                            data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
-                            aria-controls="panelsStayOpen-collapseTwo">
-                            Do you have refund in your privary terms & condition and they are valid?
-                        </button>
-                    </h2>
-                    <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
-                        aria-labelledby="panelsStayOpen-headingTwo">
-                        <div class="accordion-body text-muted">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati animi, reprehenderit
-                            debitis possimus expedita aspernatur mollitia provident cumque! Perferendis facere sed in.
-                            Adipisci, aperiam possimus voluptatum illo officiis velit blanditiis, dolore cupiditate iste
-                            excepturi tempore officia dolores deserunt sunt. Hic voluptas exercitationem doloremque.
-                            Sit, officiis veniam quasi magnam harum quaerat..
+                    <div class="col">
+                        <div class="card h-100 p-3">
+                            <div class="p-2 h-75 bg-custom1-secondary rounded-2 mb-5">
+                                <img class="img-fluid" src="assets/images/product/image 5.png" alt="product">
+                            </div>
+                            <h4 class="fw-bold text-dark fs-3">Sneakers Skate Shoe </h4>
+                            <p class="text-muted mb-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum
+                                nostrum repellendus molestiae magnam, eius cum quasi maiores illo perspiciatis ipsa.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="fw-bold primaryColor fw-bold display-6">$234</span>
+                                <button
+                                    class="d-inline btn btn-primary btnBackground fw-bold text-uppercase px-3 py-2"><i
+                                        class="bi bi-cart"></i>
+                                    Buy Now</button>
+                            </div>
+                            <span
+                                class="position-absolute top-0 positionLeft badgePadding translate-middle badge rounded-pill btnBackground">
+                                Sale
+                            </span>
                         </div>
                     </div>
-                </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="panelsStayOpen-headingThree">
-                        <button class="accordion-button fw-bold text-dark fs-6 collapsed" type="button"
-                            data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree"
-                            aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
-                            Are you are not fraud or I can case against your company?
-                        </button>
-                    </h2>
-                    <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
-                        aria-labelledby="panelsStayOpen-headingThree">
-                        <div class="accordion-body text-muted">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati animi, reprehenderit
-                            debitis possimus expedita aspernatur mollitia provident cumque! Perferendis facere sed in.
-                            Adipisci, aperiam possimus voluptatum illo officiis velit blanditiis, dolore cupiditate iste
-                            excepturi tempore officia dolores deserunt sunt. Hic voluptas exercitationem doloremque.
-                            Sit, officiis veniam quasi magnam harum quaerat.
-                        </div>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="panelsStayOpen-headingFour">
-                        <button class="accordion-button fw-bold text-dark fs-6 collapsed" type="button"
-                            data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour"
-                            aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
-                            How many Product do you have? is their enough product for deliver?
-                        </button>
-                    </h2>
-                    <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse"
-                        aria-labelledby="panelsStayOpen-headingFour">
-                        <div class="accordion-body text-muted">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati animi, reprehenderit
-                            debitis possimus expedita aspernatur mollitia provident cumque! Perferendis facere sed in.
-                            Adipisci, aperiam possimus voluptatum illo officiis velit blanditiis, dolore cupiditate iste
-                            excepturi tempore officia dolores deserunt sunt. Hic voluptas exercitationem doloremque.
-                            Sit, officiis veniam quasi magnam harum quaerat.
+                    <div class="col">
+                        <div class="card h-100 p-3">
+                            <div class="p-2 h-75 bg-custom1-secondary rounded-2 mb-5">
+                                <img class="img-fluid" src="assets/images/product/Daco_1703273 1.png" alt="product">
+                            </div>
+                            <h4 class="fw-bold text-dark fs-3">Basketball shoe</h4>
+                            <p class="text-muted mb-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum
+                                nostrum repellendus molestiae magnam, eius cum quasi maiores illo perspiciatis ipsa.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="fw-bold primaryColor fw-bold display-6">$234</span>
+                                <button
+                                    class="d-inline btn btn-primary btnBackground fw-bold text-uppercase px-3 py-2"><i
+                                        class="bi bi-cart"></i>
+                                    Buy Now</button>
+                            </div>
+                            <span
+                                class="position-absolute top-0 positionLeft badgePadding translate-middle badge rounded-pill btnBackground">
+                                Sale
+                            </span>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <!-- FAQ Setion End -->
-    <!-- Contact Us Section Start -->
-    <section class="py-5">
-        <div class="container">
-            <div class="w-lg-50 w-md-100 w-100">
-                <form action="#" class=" mx-auto">
-                    <div class="mb-3">
-                        <label for="exampleFormControlInput1" class="form-label fw-bold">Email address</label>
-                        <input type="email" class="form-control" id="exampleFormControlInput1"
-                            placeholder="name@example.com">
+        </section>
+        <!-- Casuel Shoes End -->
+        <!-- Formal Shoes Start -->
+        <section id="formal">
+            <div class="container pb-5">
+                <h2 class="secondaryColor fw-bold display-6 mb-5 pt-5 textSpacing">FORMAL SHOES</h2>
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                    <div class="col">
+                        <div class="card h-100 p-3">
+                            <div class="p-2 h-75 rounded-2 mb-5">
+                                <img class="img-fluid" src="assets/images/product/Rectangle 38.png" alt="product">
+                            </div>
+                            <h4 class="fw-bold text-dark fs-3">Prestige Leather </h4>
+                            <p class="text-muted mb-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum
+                                nostrum repellendus molestiae magnam, eius cum quasi maiores illo perspiciatis ipsa.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="fw-bold primaryColor fw-bold display-6">$234</span>
+                                <button
+                                    class="d-inline btn btn-primary btnBackground fw-bold text-uppercase px-3 py-2"><i
+                                        class="bi bi-cart"></i>
+                                    Buy Now</button>
+                            </div>
+                            <span
+                                class="position-absolute top-0 positionLeft badgePadding translate-middle badge rounded-pill btnBackground">
+                                Sale
+                            </span>
+                        </div>
                     </div>
-                    <div class="mb-3">
-                        <label for="exampleFormControlInput1" class="form-label fw-bold">Password</label>
-                        <input type="password" class="form-control" id="exampleFormControlInput1"
-                            placeholder="Enter Your Password">
+                    <div class="col">
+                        <div class="card h-100 p-3">
+                            <div class="p-2 h-75 rounded-2 mb-5">
+                                <img class="img-fluid" src="assets/images/product/Rectangle 39.png" alt="product">
+                            </div>
+                            <h4 class="fw-bold text-dark fs-3">Slip-On Shoe </h4>
+                            <p class="text-muted mb-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum
+                                nostrum repellendus molestiae magnam, eius cum quasi maiores illo perspiciatis ipsa.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="fw-bold primaryColor fw-bold display-6">$234</span>
+                                <button
+                                    class="d-inline btn btn-primary btnBackground fw-bold text-uppercase px-3 py-2"><i
+                                        class="bi bi-cart"></i>
+                                    Buy Now</button>
+                            </div>
+                            <span
+                                class="position-absolute top-0 positionLeft badgePadding translate-middle badge rounded-pill btnBackground">
+                                Sale
+                            </span>
+                        </div>
                     </div>
-                    <div class="mb-3">
-                        <label for="exampleFormControlTextarea1" class="form-label fw-bold">Enter Your Complain</label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    <div class="col">
+                        <div class="card h-100 p-3">
+                            <div class="p-2 h-75 rounded-2 mb-5">
+                                <img class="img-fluid" src="assets/images/product/Mask Group.png" alt="product">
+                            </div>
+                            <h4 class="fw-bold text-dark fs-3">Slip-On Shoe</h4>
+                            <p class="text-muted mb-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum
+                                nostrum repellendus molestiae magnam, eius cum quasi maiores illo perspiciatis ipsa.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="fw-bold primaryColor fw-bold display-6">$234</span>
+                                <button
+                                    class="d-inline btn btn-primary btnBackground fw-bold text-uppercase px-3 py-2"><i
+                                        class="bi bi-cart"></i>
+                                    Buy Now</button>
+                            </div>
+                            <span
+                                class="position-absolute top-0 positionLeft badgePadding translate-middle badge rounded-pill btnBackground">
+                                Sale
+                            </span>
+                        </div>
                     </div>
-                    <button type="submit"
-                        class="btn d-block w-100 btn-primary btnBackground fw-bold text-uppercase px-5 py-2">Submit</button>
-                    <!-- <div class="alert alert-success d-flex align-items-center alert-dismissible fade show" role="alert">
+                </div>
+            </div>
+        </section>
+        <!-- Formal Shoes End -->
+        <!-- About Section Start -->
+        <section id="about" class="py-5">
+            <div
+                class="container pt-5  d-flex flex-column flex-md-row flex-lg-row flex-column-reverse justify-content-between align-items-center">
+                <div class="d-flex flex-column w-lg-50 w-md-50 w-100">
+                    <div
+                        class="d-flex flex-column flex-lg-row flex-md-row mb-4 align-items-center justify-content-between">
+                        <img class="w-25" src="assets/images/Icon/image 12.png" alt="product">
+                        <div class="ps-0 ps-lg-3 ps-md-3 w-100 content">
+                            <h5 class="fw-bold text-dark mb-2">Find the Perfect Fit</h5>
+                            <p class="text-muted">Everybody is different, which is why we
+                                offer styles for every body.</p>
+                        </div>
+                    </div>
+                    <div
+                        class="d-flex flex-column flex-lg-row flex-md-row mb-4 align-items-center justify-content-between">
+                        <img class="w-25" src="assets/images/Icon/image 13.png" alt="product">
+                        <div class="ps-0 ps-lg-3 ps-md-3 w-100 content">
+                            <h5 class="fw-bold text-dark mb-2">Free Exchanges</h5>
+                            <p class="text-muted">One of the many reasons you can shop
+                                with peace of mind.</p>
+                        </div>
+                    </div>
+                    <div
+                        class="d-flex flex-column flex-lg-row flex-md-row mb-4 align-items-center justify-content-between">
+                        <img class="w-25" src="assets/images/Icon/image 14.png" alt="product">
+                        <div class="ps-0 ps-lg-3 ps-md-3 w-100 content">
+                            <h5 class="fw-bold text-dark mb-2">Contact Our Seller</h5>
+                            <p class="text-muted">They are here to help you. That's quite
+                                literally what we pay them for.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-lg-50 w-md-50 w-100 ps-0 ps-lg-5 ps-md-5 mb-5 mb-md-0 mb-lg-0">
+                    <img class="img-fluid" src="assets/images/Icon/XMLID 1.png" alt="Picture">
+                </div>
+            </div>
+        </section>
+        <!-- About Section End -->
+        <!-- FAQ Setion Start -->
+        <section class="py-5">
+            <div class="container">
+                <h2 class="text-dark text-center fw-bold display-6 mb-5 textSpacing">FAQ</h2>
+                <div class="accordion  mx-auto" id="accordionPanelsStayOpenExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                            <button class="accordion-button fw-bold text-dark fs-6" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne"
+                                aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                                How you deliver and take order from clients? When you Deliver their product?
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
+                            aria-labelledby="panelsStayOpen-headingOne">
+                            <div class="accordion-body text-muted">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati animi, reprehenderit
+                                debitis possimus expedita aspernatur mollitia provident cumque! Perferendis facere sed
+                                in.
+                                Adipisci, aperiam possimus voluptatum illo officiis velit blanditiis, dolore cupiditate
+                                iste
+                                excepturi tempore officia dolores deserunt sunt. Hic voluptas exercitationem doloremque.
+                                Sit, officiis veniam quasi magnam harum quaerat.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                            <button class="accordion-button fw-bold text-dark fs-6 collapsed" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo"
+                                aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                                Do you have refund in your privary terms & condition and they are valid?
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
+                            aria-labelledby="panelsStayOpen-headingTwo">
+                            <div class="accordion-body text-muted">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati animi, reprehenderit
+                                debitis possimus expedita aspernatur mollitia provident cumque! Perferendis facere sed
+                                in.
+                                Adipisci, aperiam possimus voluptatum illo officiis velit blanditiis, dolore cupiditate
+                                iste
+                                excepturi tempore officia dolores deserunt sunt. Hic voluptas exercitationem doloremque.
+                                Sit, officiis veniam quasi magnam harum quaerat..
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                            <button class="accordion-button fw-bold text-dark fs-6 collapsed" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree"
+                                aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                                Are you are not fraud or I can case against your company?
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
+                            aria-labelledby="panelsStayOpen-headingThree">
+                            <div class="accordion-body text-muted">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati animi, reprehenderit
+                                debitis possimus expedita aspernatur mollitia provident cumque! Perferendis facere sed
+                                in.
+                                Adipisci, aperiam possimus voluptatum illo officiis velit blanditiis, dolore cupiditate
+                                iste
+                                excepturi tempore officia dolores deserunt sunt. Hic voluptas exercitationem doloremque.
+                                Sit, officiis veniam quasi magnam harum quaerat.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="panelsStayOpen-headingFour">
+                            <button class="accordion-button fw-bold text-dark fs-6 collapsed" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour"
+                                aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
+                                How many Product do you have? is their enough product for deliver?
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse"
+                            aria-labelledby="panelsStayOpen-headingFour">
+                            <div class="accordion-body text-muted">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati animi, reprehenderit
+                                debitis possimus expedita aspernatur mollitia provident cumque! Perferendis facere sed
+                                in.
+                                Adipisci, aperiam possimus voluptatum illo officiis velit blanditiis, dolore cupiditate
+                                iste
+                                excepturi tempore officia dolores deserunt sunt. Hic voluptas exercitationem doloremque.
+                                Sit, officiis veniam quasi magnam harum quaerat.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- FAQ Setion End -->
+        <!-- Contact Us Section Start -->
+        <section class="py-0 py-md-5 py-lg-5" id="contact">
+            <div class="container">
+                <h2 class="secondaryColor text-center fw-bold display-6 mb-5 pt-5 textSpacing">CONTACT US</h2>
+                <div class="w-lg-50 w-md-100 w-100">
+                    <form action="#" class=" mx-auto">
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label fw-bold">Email address</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1"
+                                placeholder="name@example.com">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label fw-bold">Password</label>
+                            <input type="password" class="form-control" id="exampleFormControlInput1"
+                                placeholder="Enter Your Password">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label fw-bold">Enter Your
+                                Complain</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                        <button type="submit"
+                            class="btn d-block w-100 btn-primary btnBackground fw-bold text-uppercase px-5 py-2">Submit</button>
+                        <!-- <div class="alert alert-success d-flex align-items-center alert-dismissible fade show" role="alert">
                         Thank You For Valuable Response
                         <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
                     </div> -->
-                </form>
+                    </form>
+                </div>
             </div>
-        </div>
-    </section>
-    <!-- Contact Us Section End -->
+        </section>
+        <!-- Contact Us Section End -->
     </main>
     <footer class="btnBackground mt-5">
         <div class="container py-5 text-center">

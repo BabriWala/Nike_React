@@ -1,6 +1,9 @@
 header{
     background-color: #FFF9F4;
 }
+.navbarBackground{
+    background-color: #FFF9F4;
+}
 .navbarLogo{
     width: 100px;
 }
@@ -27,4 +30,7 @@ header{
 }
 .badgePadding{
     padding: 7px 8px;
+}
+.navbarMenu{
+    top: 20px;
 }
