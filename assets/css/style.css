@@ -10,12 +10,21 @@ header{
 .primaryColor{
     color: #FA804C;
 }
+.primaryBackgroundColor{
+    background-color: #FA804C;
+}
 .secondaryColor{
-    color: 363958;
+    color: #363958;
 }
 .btnBackground{
     background: linear-gradient(180deg, #3D4FF3 0%, #3543BC 100%);
 }
 .textSpacing{
     letter-spacing: -2px;
+}
+.positionLeft{
+    left: 90%;
+}
+.badgePadding{
+    padding: 7px 8px;
 }
